@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sandro Cerqueira</title>
+    <meta name="description" content="Welcome to my personal website! Here, you can find a selection of photos that represent some of the best moments of my life.">
+    <meta name="keywords" content="personal website, photos, life moments">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-oxsLsTUjJAFH9aT9aSh1y/xMnV7/YbPxT2Pm7E4eS2P2SqcEceumI1+Xszn1BhC" crossorigin="anonymous"></script>
+ 
+</head>
+<body>
+    <canvas id="pixie"></canvas>
+    <div id="main-wrapper">
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                 
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#template-page3"><i class="fa fa-home"></i>Home</a></li>
+                        <li><a href="#template-page4"><i class="fa fa-users"></i>About</a></li>
+                        <li><a href="#template-page2"><i class="fa fa-laptop"></i>Services</a></li>
+                        <li><a href="#template-page5"><i class="fa fa-envelope-o"></i>Contact</a></li>
+                        <li><a href="https://www.facebook.com/cerqueira520099" target="_blank" rel="nofollow" class="external"><i class="fa fa-external-link"></i>Facebook</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe"></i> Language <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="usa.html"><img src="images/usa.png" alt="English" width="30" height="20"> USA</a></li>
+                                <li><a href="index.html"><img src="images/br.png" alt="Portuguese" width="30" height="20"> BR</a></li>
+                                <li><a href="es.html"><img src="images/es.png" alt="Spanish" width="30" height="20"> ES</a></li>
+                                <li><a href="fr.html"><img src="images/fr.png" alt="French" width="30" height="20"> FR</a></li>
+                                <!-- Add more language options as needed -->
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+           
+            <div class="image-section">
+                <div class="image-container">
+                    <img src="images/background.jpg" id="template-page1-img" class="inactive" alt="Home">
+                    <img src="images/background.jpg" id="template-page2-img" class="inactive" alt="Services">
+                    <img src="images/background.jpg" id="template-page3-img" class="main-img inactive" alt="Awards">
+                    <img src="images/background.jpg" id="template-page4-img" class="inactive" alt="Company">
+                    <img src="images/background.jpg" id="template-page5-img" class="inactive" alt="Contact">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 template-content-wrapper">
+                    <div class="template-content">  
+                        <section id="template-page1-text" class="inactive">
+                            <div class="col-sm-12 col-md-12">
+                                <h3>Sandro</h3>
+                                <div id="slider" class="flexslider"></div>
+                                <div id="carousel" class="flexslider"></div>
+                                <h3>The end of things is better than their beginning</h3>
+                            </div>
+                        </section><!-- /.template-page1-text --> 
+                        <section id="template-page2-text" class="inactive">
+                            <div class="col-sm-12 col-md-12">
+                                <h2>My services</h2>
+                                <p class="alt" align="justify">
+                                    <br>I perform penetration testing on web applications to identify and exploit security vulnerabilities. This includes:
+                                    <h3>SQL Injection</h3>
+                                    <h3>Cross-Site Scripting (XSS)</h3>
+                                    <h3>Remote File Inclusion (RFI/LFI)</h3>
+                                    <h3>Remote Code Execution (RCE)</h3>
+                                    <h3>Authentication and Authorization Bypass</h3>
+                                    <h3>Login page bypass</h3>
+                                    <h3>As well as other common threats.</h3>
+                                    <br>
+                                </p>
+                            </div>
+                        </section><!-- /.template-page2-text -->                 
+                        <section id="template-page3-text"  class="active">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="template-site-title">
+                                        <h1 class="site-name">Hello</h1>
+                                        <h2 class="slogon" align="justify">
+                                            Hello! Welcome to my personal website! Here, you can learn a little more about me, explore the services I offer, and get in touch with me.
+                                            <br>
+                                            <br>
+                                            In the "About" section, I share details about my background and the inspiration behind the creation of this website.
+                                            <br>
+                                            <br>
+                                            In the "Services" section, I describe some of the services I offer, especially focused on WebPentest solutions.
+                                            <br>
+                                            <br>
+                                            Additionally, I provide my contact information so you can reach out if you're interested in using my services.
+                                            <br>
+                                            <br>
+                                            I hope you enjoy your visit and find the information you're looking for. Don't hesitate to contact me if you need anything else!
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </section><!-- /.template-page3-text --> 
+                        <section id="template-page4-text" class="inactive">
+                            <h2 class="text-center">About</h2>
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <h3>Who am I</h3>
+                                <p align="justify">
+                                    My name is Sandro Henrique Cerqueira, I'm 31 years old, and I have a degree in Computer Science. Currently, I live in a small town in the state of São Paulo.</p>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <h3 align="justify">A little of my story</h3>
+                                <p align="justify">
+                                    <br>My journey in the world of pentesting began at the age of 18, when I immersed myself in studying Pentest. At 19, I decided to further enhance my knowledge by enrolling in the Computer Science course. It was then, in the year 2023, that I was introduced to the bug bounty world.
+                                    <br>
+                                    <br>
+                                    I confess that initially, I was completely unaware of this area. Bug bounty, a practice in which renowned companies reward individuals for identifying vulnerabilities in their systems, turned out to be an exciting discovery. Although it is a complex and highly competitive field, I noticed that the number of companies offering bug rewards is relatively small compared to the total number of existing organizations.
+                                    <br>
+                                    <br>
+                                    While exploring the internet, I found that about 80% of web applications have some kind of vulnerability, from large companies to the smallest ones. This realization was the starting point for my idea of ​​creating this site. My purpose is to identify vulnerabilities in web applications for companies that do not participate in bug bounty programs, with the aim of helping them reinforce the security of their services and protect their customers' data.
+                                    <br>
+                                    <br>
+                                </p>
+                            </div>
+                        </section><!-- /.template-page4-text --> 
+                        <section id="template-page5-text" class="inactive">
+                            <div class="col-sm-12 col-md-12">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12">
+                                        <h2>I'm waiting for your contact!</h2>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-6">
+                                        <h3>Location</h3>
+                                        <div id="map-canvas"></div>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <h3>Send your message</h3>
+                                        <form action="enviar.php" method="post">
+                                            <div class="form-group">
+                                                <input type="text" name="nome" class="form-control" placeholder="Name" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" name="email" class="form-control" placeholder="Email" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea name="mensagem" class="form-control" rows="9" placeholder="Message" required></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Send</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div><!-- /.template-content -->  
+                        </section>
+                    </div><!-- /.template-content -->  
+                </div><!-- /.col-lg-12 -->  
+            </div><!-- /.row -->            
+            <div class="template-content-wrapper"> 
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer">
+                        <div class="footer-wrapper">
+                            <p class="social-icons">
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/sandro.cerquei" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                                <a href="#"><i class="fa fa-youtube"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </p>
+                            <p id="tm-copyright">
+                                Site developed by Sandro
+                            </p>
+                        </div>                    
+                    </div><!-- /.footer --> 
+                </div>   
+            </div><!-- /.template-content-wrapper --> 
+        </div><!-- /.container -->
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div><!-- #preloader -->
+    </div><!-- #main-wrapper -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!--Plugin-JS-->
+    <script src="js/countdown.js"></script>
+    <script src="js/parallaxsoon.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script src="js/jquery.flexslider.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/template_script.js"></script>
+</body>
+</html>
+
